@@ -56,8 +56,8 @@ endmodule
 //MAX MODULE===============================================================
 //Compare 4 value and choose the highest value
 module max4to1_32bit(
- input [32:0] D1, D2, D3, D4,
- output [32:0] Y
+ input [31:0] D1, D2, D3, D4,
+ output [31:0] Y
 );
  wire [32:0] max0_out, max1_out;
 //portmap
